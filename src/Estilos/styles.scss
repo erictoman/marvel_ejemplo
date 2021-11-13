@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+#root {
+  min-height: 100%;
+  section {
+    height: inherit;
+  }
+}
+.is-horizontal-center {
+  justify-content: center;
+}
