@@ -1,6 +1,6 @@
 var Axios = require("axios");
 const instancia = Axios.default.create({
-  baseURL: "https://gateway.marvel.com/",
+  baseURL: "http://gateway.marvel.com/",
   params: {
     apikey: "70a92c0b025cdee6e0ca4a22ce49a97e",
   },
